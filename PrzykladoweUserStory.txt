@@ -1,0 +1,26 @@
+Nazwa: Tworzenie miesięcznego grafiku pracy zmianowej - Pomocnik Kadrowy.
+
+User story:
+Jako kierownik sklepu
+chcę przygotować miesięczny grafik pracy zmianowej w Pomocniku Kadrowym
+by przedstawić pracownikom plan ich pracy na kolejny miesiąc.
+
+Kryteria akceptacji:
+
+[kryteria funkcjonalne:]
+- czy Pomocnik Kadrowy posiada możliwość tworzenia planów pracy?
+- czy tylko kierownik ma możliwość modyfikacji grafiku w Pomocniku Kadrowym?
+- czy wszyscy pracownicy mają dostęp do podglądu planu pracy w Pomocniku Kadrowym?
+- czy tworzony grafik jest zgodny z Kodeksem Pracy i Regulaminem Pracy?
+- czy grafik uwzględnia niedziele niehandlowe i święta (dni wolne od pracy)?
+- czy grafik zlicza/sumuje godziny pracy każdego pracownika w danym miesiącu?
+- czy grafik można wydrukować bezpośrednio z Pomocnika Kadrowego?
+- czy Pomocnik Kadrowy umożliwia pobranie grafiku na komputer?
+- czy Pomocnik Kadrowy umożliwia wyszukiwanie poprzednich planów pracy?
+
+[kryteria niefunkcjonalne:]
+- czy grafik zostanie wygenerowany w czasie krótszym niż 3 sekundy (średnio, dla 95% zapytań)?
+- czy wygląd grafiku jest spójny z identyfikacją wizualną całego Pomocnika Kadrowego?
+- czy pracownicy mają dostęp do podglądu planu pracy w Pomocniku Kadrowym na różnych komputerach?
+- czy Pomocnik Kadrowy działa pod dużym obciążeniem (100 użytkowników korzystających jednocześnie)?
+- czy każdy użytkownik jest w stanie obsłużyć Pomocnik Kadrowy (czy jest intuicyjny)?
