@@ -1,0 +1,52 @@
+Przykładowy raport błędu
+
+Błąd 1
+Tytuł: Niepoprawne wyświetlanie kodu pocztowego dla frazy "Radzanów n Pilica" (Radzanów - wieś gminna w woj. Mazowieckim)
+Środowisko: produkcyjne https://www.google.pl/maps
+Przeglądarka internetowa: Google Chrome Wersja 87.0.4280.88
+
+Kroki potrzebne do odtworzenia błędu reprodukcji:
+
+Warunek wstępny: Posiadanie dostępu do Internetu, do aplikacji Google Maps oraz znajomość umiejscowienia
+geograficznego wyszukiwanej frazy “Radzanów n Pilica”
+
+Krok 1 Wprowadzenie adresu do paska przeglądarki: https://www.google.pl/maps
+
+Krok 2 Wprowadzenie w pasku wyszukiwania [Wyszukaj w mapach Google] frazy: “Radzanów n Pilica”
+
+Krok 3 Kliknięcie przycisku [enter] w celu wyświetlenia wyszukiwanego miejsca na mapie
+
+Oczekiwany rezultat:
+Wpisanie frazy Radzanów n Pilica skutkuje wyświetleniem poprawnej lokalizacji tego miejsca na mapie Google. Jest to wieś gminna w województwie mazowieckim w odległości 31 km od miasta Radom.
+
+Aktualny rezultat:
+Fraza: Radzanów n Pilica – pojawia się poprawna lokalizacja na mapie, ale po lewej stronie w oknie informacyjnym wyświetla się przypisany błędny kod pocztowy: 28-100.
+
+
+Błąd 2
+Tytuł: Niepoprawny fragment mapy oraz błędna miejscowość dla kodu pocztowego “26-807”
+(26-807 Radzanów - wieś gminna w woj. Mazowieckim)
+Środowisko: produkcyjne https://www.google.pl/maps
+Przeglądarka internetowa: Google Chrome Wersja 87.0.4280.88
+
+Kroki potrzebne do odtworzenia błędu reprodukcji:
+
+Warunek wstępny Posiadanie dostępu do Internetu, do aplikacji Google Maps oraz znajomość umiejscowienia geograficznego wyszukiwanej frazy “26-807” 
+
+Krok 1 Wprowadzenie adresu do paska przeglądarki: https://www.google.pl/maps
+
+Krok 2 Wprowadzenie w pasku wyszukiwania [Wyszukaj w mapach Google] frazy: “26-807”
+
+Krok 3 Kliknięcie przycisku [enter] w celu wyświetlenia wyszukiwanego miejsca na mapie
+
+Oczekiwany rezultat:
+Wpisanie frazy 26-807 skutkuje wyświetleniem poprawnej lokalizacji tego miejsca na mapie Google. Jest to kod pocztowy wsi gminnej w województwie mazowieckim w odległości 31 km od miasta Radom.
+
+Aktualny rezultat:
+Fraza kod pocztowy: 26-807 – pojawia się błędny fragment mapy oraz błędnie przypisana miejscowość Smardzew do tego kodu pocztowego, która znajduje się w zupełnie innym miejscu na mapie 204 km od poprawnego miejsca Radzanów.
+
+Dane testowe:
+Radzanów n Pilica
+26-807
+
+
