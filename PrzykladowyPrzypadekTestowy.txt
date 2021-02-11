@@ -1,0 +1,65 @@
+Przykładowy przypadek testowy
+
+Autor: Milena Bednarczyk
+Środowisko: Środowisko: produkcyjne https://www.gazetaprawna.pl/
+Przeglądarka: Google Chrome Wersja 88.0.4324.146
+
+Dane testowe:
+e-mail: milenatest@op.pl
+hasło: 123456
+
+Priorytet: wysoki
+
+PRZYPADEK TESTOWY
+ID PRZYPADKU	NAZWA TESTU	OPIS PRZYPADKU		KROKI		OPIS KROKÓW DO WYKONANIA	OCZEKIWANY REZULTAT	AKTUALNY REZULTAT	STATUS		KOMENTARZ
+PT_01		Rejestracja	Użytkownik powinien 	Warunek 	Dostęp do przeglądarki Google
+		nowego 		mieć możliwość		wstępny		Chrome oraz posiadanie poprawnych
+		użytkownika	zarejestrowania				danych rejestracyjnych
+		na stronie	się na stronie,		
+		gazetaprawna.pl	podając poprawny	Krok 1		Uruchomienie strony 		Strona Dziennik Gazeta	Strona wyświetliła się	Pozytywny
+				email oraz hasło			internetowej poprzez		Prawna otwiera się	poprawnie
+									wprowadzenie w pasku		poprawnie
+									przeglądarki Google
+									Chrome adresu:
+									https://www.gazetaprawna.pl/
+
+							Krok 2		Kliknięcie przycisku 		Otwiera się okno	Okno wyświetliło się	Pozytywny
+									[Zaloguj się] w prawym		z opcjami do wyboru	poprawnie
+									górnym rogu strony		[Zaloguj się] oraz
+													[Zarejestruj się]
+
+							Krok 3		Kliknięcie przycisku		Następuje 		Strona oraz formularz	Pozytywny
+									[Zarejestruj się]		przeniesienie do 	wyświetla się poprawnie
+									w wyświetlonym oknie		strony: 
+													sklep.infor.pl/konto.html
+													i wyświetla się formularz
+													[Rejestracja konta] oraz
+													pola: 'email', 'hasło',
+													'powtórz hasło'
+
+							Krok 4		Wprowadzenie następujących	Dane w formularzu 	Dane wprowadzone	Pozytywny
+									danych:				zostają wprowadzone	poprawnie
+									email: milenatest@op.pl		poprawnie
+									hasło: 123456
+									powtórz hasło: 123456
+									oraz zaznaczenie checkboxa
+									[Akceptuję regulamin]
+
+							Krok 5		Kliknięcie zielonego 		Następuje rejestracja	Rejestracja zakończyła	Negatywny	Zalogowanie
+									przycisku [Zarejestruj się]	nowego użytkownika	się poprawnie, 				powinno
+													i automatyczne 		użytkownik został			przenosić
+													zalogowanie na 		zalogowany, ale				użytkownika
+													stronę gazetaprawna.pl	wyświetliła się				na stronę
+																strona główna:				'Dziennik
+																sklep.infor.pl				Gazeta
+																z możliwością				Prawna',
+																przejścia do działu			a nie do
+																'Dziennik Gazeta Prawna'		księgarni
+																w Menu					internetowej
+																					infor.pl
+																					z możliwością
+																					wybrania DGP
+																					w Menu strony.
+																					Po wybraniu DGP
+																					użytkownik 
+																					zostaje wylogowany
